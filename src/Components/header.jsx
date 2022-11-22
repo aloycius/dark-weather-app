@@ -24,7 +24,7 @@ const Header = () => {
           Sign up
         </button>
       </div>
-      <div className="flex flex-row justify-center content-center mt-28 ml-72 font-bold text-white text-2xl h-28 w-3/6 box-content bg-red-500 ">
+      <div className="flex flex-row justify-center content-center flex-wrap mt-28 ml-72 font-bold text-white text-2xl h-28 w-3/6 box-content bg-red-500 ">
         <div>
           <p className=" content-center">
             Seeing the weather of the whole world!<br></br>

@@ -13,7 +13,7 @@ const aquaticCreatures = [
 export default function Cards() {
   return (
     <div>
-      <div className="flex justify-center h-2/6 w-fit ml-20 mt-12  items-center rounded-md bg-slate-400 p-1.5">
+      <div className="flex justify-center h-fit w-fit absolute top-80 left-28   items-center rounded-md bg-slate-400 p-1.5">
         <form>
           <input
             className="rounded p-1 w-fit bg-slate-500 text-white"
@@ -23,7 +23,7 @@ export default function Cards() {
           ></input>
         </form>
       </div>
-      <div className="flex flex-row justify-end  mr-64">
+      <div className="flex flex-row justify-center   absolute top-80 right-28 w-2/6 p-1 rounded-md bg-slate-400">
         <div className="flex flex-row justify-center w-2/5 bg-white">
           <div>Filters</div>
           <div className="flex">
